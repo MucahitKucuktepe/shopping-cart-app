@@ -1,70 +1,99 @@
-# Getting Started with Create React App
+<p>Clarusway<img align="right"
+  src="https://secure.meetupstatic.com/photos/event/3/1/b/9/600_488352729.jpeg"  width="15px"></p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Shopping Cart
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+Project aims to create a Shopping Cart App.
 
-### `npm start`
+## Problem Statement
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- We are adding a new project to our portfolios. So you and your colleagues have started to work on the project.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Project Skeleton
 
-### `npm test`
+```
+Shopping Cart (folder)
+|
+|----readme.md         # Given to the students (Definition of the project)
+SOLUTION
+├── public
+│     └── index.html
+├── src
+│   ├── App.js
+│   ├── components
+│   │    ├── CardTotal.jsx
+│   │    ├── Navbar.jsx
+│   │    ├── ProductCard.jsx
+│   │    └── ProductForm.jsx
+│   ├── index.css
+│   ├── index.js
+│   └── pages
+│        ├── About.jsx
+│        ├── Main.jsx
+│        ├── NewProduct.jsx
+│        ├── ProductList.jsx
+│        └── UpdateProduct.jsx
+├── package.json
+└── yarn.lock
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
 
-### `npm run build`
+## Expected Outcome
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Shopping Cart](shopping-cart.gif)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Objective
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Build a Shopping Cart App using ReactJS.
 
-### `npm run eject`
+### At the end of the project, following topics are to be covered;
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- HTML
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- CSS
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- JS
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- ReactJS
 
-## Learn More
+### At the end of the project, students will be able to;
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- improve coding skills within HTML & CSS & JS & ReactJS.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- use git commands (push, pull, commit, add etc.) and Github as Version Control System.
 
-### Code Splitting
+## Steps to Solution
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Step 1: Create React App using `npx create-react-app shopping-cart`
 
-### Analyzing the Bundle Size
+- Step 2 : Install `"react-icons"` package to your `package.json` for icons or fontawesome cdn link paste to "public/index.html", install `axios` package and `react-router-dom`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Step 3: Build Checkout Page App.
 
-### Making a Progressive Web App
+- Step 4: You can use CSS frameworks like Bootstrap, Material UI etc.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Step 5: Push your application into your own public repo on Github
 
-### Advanced Configuration
+- Step 6: Add project gif to your project and README.md file.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Notes
 
-### Deployment
+- Watch the video and follow the steps to create an account and project on MockAPI.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Demo
+  <a href="https://shopping-cart-mockapi.vercel.app/" target="_blank">Shopping Cart</a>
 
-### `npm run build` fails to minify
+## MockApi
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<a href="https://mockapi.io/" target="_blank">MockApi</a>
+<!-- https://65872365468ef171392f526f.mockapi.io/products -->
+
+## How do we create mockApi? Watch the video!
+<a href="https://www.youtube.com/watch?v=i_Gvlp83GMk" target="_blank">
+ Watch the video
+</a>
+
+
+**<p align="center">&#9786; Happy Coding &#9997;</p>**
