@@ -1,8 +1,11 @@
 import React from 'react'
+import ProductForm from '../components/ProductForm'
 
 const UpdateProduct = () => {
   return (
-    <div>UpdateProduct</div>
+    <div className='container' >
+      <ProductForm />
+    </div>
   )
 }
 
