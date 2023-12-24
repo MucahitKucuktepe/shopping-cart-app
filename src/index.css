@@ -1,5 +1,28 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  background-image: url(./assets/shopping.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 2px solid red;
+  height: calc(100vh - 56px);
+  position: relative;
+  text-align: center;
+}
+
+.info {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  color: antiquewhite;
+}
+.main-buttons {
+  margin-top: 7rem;
+  margin-left: 2rem;
 }

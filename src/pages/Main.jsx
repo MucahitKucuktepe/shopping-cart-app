@@ -5,11 +5,11 @@ const Main = () => {
   const navigate = useNavigate();
   return (
     <main className="main">
-      <div>
+      <div className="info">
         <h1>Welcome to Shopping Cart Aplication</h1>
         <div className="main-buttons">
           <button
-            className="btn btn-outline-primary px-4"
+            className="btn btn-outline-primary px-4 text-white"
             onClick={() => navigate("/new-product")}
           >
             Add New Product
