@@ -53,7 +53,11 @@ const ProductCard = ({
             <h5
               className="card-title"
               role="button"
-              onClick={() => navigate("/update-product/:title")}
+              onClick={() =>
+                navigate(`/update-product/${name}`, {
+                  state: { name, image, price, dampingRate, amount, id },
+                })
+              }
             >
               {name}
             </h5>

@@ -1,4 +1,5 @@
 const ProductForm = ({ formData, handleChange, handleSubmit ,text }) => {
+  console.log(formData);
   return (
     <article
       id="add-product"
