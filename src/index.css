@@ -104,7 +104,7 @@ body {
 }
 .main-buttons button:nth-child(1):hover {
   border: 1px solid #135058 !important;
-  color: #fff;
+  color: #fff !important;
   height: 40px;
   background-color: #135058;
 }

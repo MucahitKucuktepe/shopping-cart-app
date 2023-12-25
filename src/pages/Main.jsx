@@ -9,7 +9,7 @@ const Main = () => {
         <h1>Welcome to Shopping Cart Aplication</h1>
         <div className="main-buttons">
           <button
-            className="btn btn-outline-primary px-4 text-white"
+            className="btn btn-outline-primary px-4 text-black"
             onClick={() => navigate("/new-product")}
           >
             Add New Product

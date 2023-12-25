@@ -14,6 +14,7 @@ const ProductForm = ({ formData, handleChange, handleSubmit ,text }) => {
             type="text"
             className="form-control"
             id="name"
+            value={formData.name}
             required
             onChange={handleChange}
           />
@@ -26,6 +27,7 @@ const ProductForm = ({ formData, handleChange, handleSubmit ,text }) => {
             type="number"
             className="form-control"
             id="price"
+            value={formData.price}
             required
             onChange={handleChange}
           />
@@ -38,6 +40,7 @@ const ProductForm = ({ formData, handleChange, handleSubmit ,text }) => {
             type="number"
             className="form-control"
             id="amount"
+            value={formData.amount}
             required
             onChange={handleChange}
           />
@@ -53,6 +56,7 @@ const ProductForm = ({ formData, handleChange, handleSubmit ,text }) => {
             type="url"
             className="form-control"
             id="image"
+            value={formData.image}
             aria-describedby="basic-addon3"
             required
             onChange={handleChange}
