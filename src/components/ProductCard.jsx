@@ -42,7 +42,7 @@ const ProductCard = ({
         <div className="col-md-5">
           <img
             src={image}
-            className="w-100 h-100 rounded-start"
+            className="w-100 h-100 rounded-start img-thumbnail"
             alt={"name"}
             height="250px"
             title={""}
